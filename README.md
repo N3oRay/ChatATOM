@@ -7,3 +7,13 @@ index.php
   <img src="./prevu.png" style="flex-grow: 1; flex-shrink: 1;" />
 </div>
 
+
+## Install
+sudo apt install composer
+
+## Linux note:
+sudo chown -R root:www-data /var/www
+
+Next, set the appropriate permissions to allow group members to write to these directories:
+
+sudo chmod -R 775 /var/www
