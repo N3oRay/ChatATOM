@@ -7,6 +7,7 @@ Prevu:
 
 ## Contributors
 
-<a href="https://github.com/N3oRay/ChatATOM/contributors">
-  <img src="https://github.com/N3oRay/ChatATOM/prevu.png" />
-</a>
+<div style="display: flex; justify-content: center; align-items: center; gap: 1em; margin: 0 0 2em 0;">
+  <img src="./prevu.png" style="flex-grow: 1; flex-shrink: 1;" />
+</div>
+
