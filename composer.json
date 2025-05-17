@@ -1,16 +1,16 @@
 {
-    "name": "ChatATOM",
+    "name": "chat/atom",
     "description": "Simple AI ChatBOT.",
     "type": "library",
     "keywords": [
         "template"
     ],
     "homepage": "https://github.com/N3oRay/ChatATOM/",
-    "license": "Apache-2.0 license",
+    "license": "proprietary",
     "authors": [
         {
             "name": "Serge LOPES",
-            "email": "serge.lopes.94@free.fr",
+            "email": "email@example.fr",
             "role": "lead"
         }
     ],
