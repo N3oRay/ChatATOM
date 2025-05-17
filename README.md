@@ -9,11 +9,13 @@ index.php
 
 
 ## Install
+```bash
 sudo apt install composer
 
 ## Linux note:
+```bash
 sudo chown -R root:www-data /var/www
 
 Next, set the appropriate permissions to allow group members to write to these directories:
-
+```bash
 sudo chmod -R 775 /var/www
