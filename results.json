@@ -1,0 +1,37 @@
+
+{
+    "menuitem": [
+      {"entrer": "Bonjour", "result": "Bonjour", "poid": "100"},
+      {"entrer": "Salut", "result": "Salut", "poid": "100"},
+      {"entrer": "Bonjour", "result": "Oui", "poid": "75"},
+	  {"entrer": "Coucou", "result": "Oui", "poid": "50"},
+	  {"entrer": "Coucou", "result": "Coucou", "poid": "100"},
+	  {"entrer": "Coucou", "result": "Salut", "poid": "75"},
+	  {"entrer": "Ca va ?", "result": "Bien et toi ?", "poid": "100"},
+	  {"entrer": "Ca va ?", "result": "Oui", "poid": "75"},
+	  {"entrer": "Ca va ?", "result": "Super", "poid": "50"},
+	  {"entrer": "Yop", "result": "Salut", "poid": "75"},
+	  {"entrer": "Tu as quel age ?", "result": "Je sais pas vraiment.", "poid": "75"},
+	  {"entrer": "Comment vas tu ?", "result": "C'est gentil de te soucier de moi.", "poid": "75"},
+	  {"entrer": "Il fait beau ?", "result": "Je sais pas vraiment.", "poid": "75"},
+	  {"entrer": "Il fait beau ?", "result": "ça va il fait beau aujourd'hui", "poid": "100"},
+	  {"entrer": "On se vois lundi ?", "result": "Il y a quoi lundi ?", "poid": "100"},
+	  {"entrer": "On se vois mardi ?", "result": "Il y a quoi mardi ?", "poid": "100"},
+	  {"entrer": "On se vois mercredi ?", "result": "Il y a quoi mercredi ?", "poid": "100"},
+	  {"entrer": "On se vois Jeudi ?", "result": "Il y a quoi Jeudi ?", "poid": "100"},
+	  {"entrer": "On se vois vendredi ?", "result": "Il y a quoi vendredi ?", "poid": "100"},
+	  {"entrer": "On se vois samedi ?", "result": "Il y a quoi samedi ?", "poid": "100"},
+	  {"entrer": "On se vois dimanche ?", "result": "Il y a quoi dimanche ?", "poid": "100"},
+	  {"entrer": "Salut", "result": "Qu'es tu fais de beau?", "poid": "75"},
+	  {"entrer": "Tu es beau ?", "result": "Oui comment tu me trouve?", "poid": "100"},
+	  {"entrer": "Tu pense a moi ?", "result": "Oui souvant", "poid": "75"},
+	  {"entrer": "Tu pense a moi ?", "result": "Peut être", "poid": "50"},
+	  {"entrer": "Tu sais ?", "result": "Peut être", "poid": "50"},
+	  {"entrer": "Tu connais ?", "result": "Peut être", "poid": "50"},
+	  {"entrer": "Tu es comment ?", "result": "Plutôt mystérieux", "poid": "100"},
+	  {"entrer": "Je veux te connaitre", "result": "Moi aussi j'adore connaitre de nouvelle personne.", "poid": "100"},
+	  {"entrer": "Raconte", "result": "Oui", "poid": "100"},
+	  {"entrer": "Tu m'aimes ?", "result": "Oui", "poid": "100"},
+	  {"entrer": "Hello", "result": "Hello", "poid": "100"}]
+}
+
