@@ -1,0 +1,32 @@
+{
+    "name": "ChatATOM",
+    "description": "Simple AI ChatBOT.",
+    "type": "library",
+    "keywords": [
+        "template"
+    ],
+    "homepage": "https://github.com/N3oRay/ChatATOM/",
+    "license": "Apache-2.0 license",
+    "authors": [
+        {
+            "name": "Serge LOPES",
+            "email": "serge.lopes.94@free.fr",
+            "role": "lead"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/N3oRay/ChatATOM/issues",
+        "security": "https://github.com/N3oRay/ChatATOM/security/policy"
+    },
+    "config": {
+        "platform": {
+            "php": "8.3.6"
+        },
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "prefer-stable": true,
+    "require": {
+        "php": ">=8.3"
+    }
+}
