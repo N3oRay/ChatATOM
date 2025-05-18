@@ -53,10 +53,7 @@ static $valeurpardefaut  = "lol";
 static $solutioninverse = true;   // N'est pas indispensable
 static $recherchesimple = false; // N'est plus utils
 $_SESSION['admin'] = "false";
-static $reponseauquestion = array("D'accord XD", "Ha merci XD","Tres bien XD","Ha OK XD",
-"Parle moi encore de toi.","Je me disais aussi XD",
-"C'est pas faux XD","Non serieu XD",
-"Humm interessant ...","Humm ...","Parfait", "C'est a dire ?", "Ha d'accord", "Tout est clair :)");
+
 ?>
 
 <!DOCTYPE html>
@@ -124,12 +121,23 @@ include_once("framework.php");
 
 //**********************************************************************************************
 function array_random($arr, $num = 1) {
+
     shuffle($arr);
     $r = array();
     for ($i = 0; $i < $num; $i++) {
-        $r[] = $arr[$i];
+        // On test la valeur
+        if (isset($arr[$i])){
+            $r[] = $arr[$i];
+        // Si la premier n'est pas satisfaite on test la seconde.
+        }else if (isset($arr[$i+1])){
+            $r[] = $arr[$i+1];
+        // Puis la suivante
+        }else if (isset($arr[$i+2])){
+            $r[] = $arr[$i+2];
+        }
     }
     return $num == 1 ? $r[0] : $r;
+
 }
 
 
@@ -338,7 +346,12 @@ function rechercherow ($json_a, $value){
     // Affichage resultat final :
     ///////////////print_r($resultfin);
     // resultat aleatoire:
-    return array_random($resultfin);
+    //if ($resultfin)
+    if (isset($resultfin)){
+       return @array_random($resultfin);
+    }else{
+       return "Si vous avez besoin de quelque chose d'autre ou de précisions, n'hésitez pas à demander.";
+    }
 }
 
 
@@ -531,8 +544,10 @@ if (isset($_SESSION['mode'])){
 		$result = appel($json_a,$arrayquestion,$lastentry,$entrer, 'moyen');
 		$_SESSION['mode'] = "normal";	//raz mode
 		//$result = "D'accord :)";
-		////$reponseauquestion return array_random($result);
-		$result = array_random($reponseauquestion);
+        $reponseauquestion = array("D'accord XD", "Ha merci XD","Tres bien XD","Ha OK XD","Parle moi encore de toi.","Je me disais aussi XD",
+        "C'est pas faux XD","Non serieu XD",
+        "Humm interessant ...","Humm ...","Parfait", "C'est a dire ?", "Ha d'accord", "Tout est clair :)");
+		$result = @array_random($reponseauquestion);
 	}
 }
 
